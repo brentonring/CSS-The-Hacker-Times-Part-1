@@ -31,6 +31,7 @@ body {
   margin: auto;
   background-color: #eee;
   font-family: "Source Sans Pro";
+  text-align: justify;
 }
 
 div.newspaper-container {
@@ -41,7 +42,7 @@ div.newspaper-container {
   margin-top: 1em;
   margin-bottom: 1em;
   padding: 1em;
-  box-shadow: #ddd;
+  box-shadow: 1em #ddd;
 }
 
 h5 {
