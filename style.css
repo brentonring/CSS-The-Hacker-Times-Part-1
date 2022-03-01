@@ -3,20 +3,22 @@
 nav ul li {
   display: inline-block;
   padding: 0.5em;
-  border-top: #eee;
-  border-bottom: #eee;
   color: #777;
-  text-decoration: none;
+  padding-left: 0%;
 }
 
-nav ul {
-  border-bottom: #eee;
-  border-top: #eee;
-}
+/* nav ul {
+  margin-left: 0px;
+} */
 
 nav {
-  border-top: #eee;
-  border-bottom: #eee;
+  border-top: 5px solid #eee;
+  border-bottom: 5px solid #eee;
+  position: sticky;
+  top: 0em;
+  margin: 0;
+  z-index: 1;
+  background-color: white;
 }
 
 h1 {
@@ -45,7 +47,7 @@ div.newspaper-container {
   box-shadow: 1em #ddd;
 }
 
-h5 {
+#author {
   color: red;
 }
 
@@ -61,4 +63,27 @@ h4 {
 
 h2 {
   font-family: "Roboto Slab";
+}
+
+a {
+  text-decoration: none;
+  color: #777;
+}
+
+img {
+  width: auto;
+}
+
+h5 {
+  font-family: "Roboto Slab";
+}
+
+#threeWide {
+  display: inline-block;
+  width: 100px;
+  margin: 20px;
+}
+
+#threeWide img {
+  width: 100px;
 }
